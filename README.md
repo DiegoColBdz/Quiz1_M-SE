@@ -30,13 +30,6 @@ import scipy.stats as stats
 from scipy.stats import rv_discrete, rv_histogram, binom, norm, kstest
 ```
 
-## Estructura del Proyecto
-- `/datos` - Archivos de datos de demanda histórica
-- `/modelos` - Implementación de modelos probabilísticos
-- `/simulacion` - Scripts de simulación Monte Carlo
-- `/visualizacion` - Gráficos y visualizaciones de resultados
-- `/analisis` - Análisis de sensibilidad y optimización
-
 ## Metodología
 1. Análisis de las distribuciones de demanda por tramo
 2. Modelado de la distribución de demanda para el tramo Atlanta-Chicago basado en datos históricos
@@ -55,8 +48,12 @@ git clone [url-del-repositorio]
 # Navegar al directorio del proyecto
 cd [nombre-del-directorio]
 
-# Ejecutar el script principal
-python simulacion.py
+# Crear un ambiente virtual e instalar todas las librerias necesarias
+pip install numpy pandas matplotlib seaborn scipy
+
+# Abrir el cuaderno de Python con un editor como VS Code o usar un cuaderno de jupyter
+pip install jupyterlab
+jupyter lab [quiz1.ipynb]
 ```
 
 ## Conclusiones
